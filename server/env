@@ -1,0 +1,9 @@
+MONGODB_URI = write your uri
+
+PORT = 3000
+
+GOOGLE_CLIENT_ID = write your client id
+
+GOOGLE_CLIENT_SECRET = write your client secret
+
+GOOGLE_CALLBACK_URL = http://localhost:3000/auth/callback
