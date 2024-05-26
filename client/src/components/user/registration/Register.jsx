@@ -12,13 +12,13 @@ const Register = () => {
                     <h2 className="text-2xl text-center">welcome to Rishta </h2>
                     <form className="flex flex-col md:w-1/3 h-auto px-10  mx-auto py-5">
                         <label htmlFor="name">name</label>
-                        <input type="name" placeholder="name" name="name" className="py-4 px-3 border-2  border-black outline-none rounded-lg " required />
+                        <input type="text" placeholder="name" name="name" className="py-4 px-3 border-2  border-black outline-none rounded-lg " required />
                         <label htmlFor="email" className="mt-4">email</label>
                         <input type="email" placeholder="Email" name="email" className="py-4 px-3 border-2  border-black outline-none rounded-lg " required />
                         <label htmlFor="password" className="mt-4">password</label>
                         <input type="password" placeholder="Password" className="py-4 px-3 border-2  border-black outline-none rounded-lg" required />
 
-                        <button type="submit" className="py-4 w-32 bg-black text-white hover:bg-[#8C94FF] hover:text-black px-3 border-2  ease-in-out duration-500 border-black outline-none rounded-lg mt-4">Register</button>
+                        <button type="submit" className="py-4 w-32 bg-black text-white hover:bg-[#8C94FF] hover:text-black px-3 border-2  ease-in-out duration-500 border-black outline-none rounded-lg mt-4">continue</button>
                     </form>
 
                     <div>

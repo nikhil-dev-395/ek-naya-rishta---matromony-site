@@ -27,6 +27,10 @@ const Profile = () => {
                     <h1 className="text-3xl text-center capitalize text-red-800 font-semibold mb-8">
                         RISTHA - naye bandhono ka
                     </h1>
+
+                    <h1 className="text-3xl text-center capitalize text-slate-500 font-semibold mb-8">
+                        my profile
+                    </h1>
                     <div className="max-w-4xl  mx-auto p-6 rounded-lg shadow-md" id="profile">
                         <div className="bg-red-100 flex flex-col md:flex-row items-center gap-6 p-6 rounded-lg shadow-md" id="top">
                             <img
