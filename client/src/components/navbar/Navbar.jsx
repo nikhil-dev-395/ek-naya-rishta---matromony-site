@@ -40,6 +40,8 @@ const Navbar = () => {
                     <button onClick={toggleMobileMenu} className="focus:outline-none">
                         {isMobileMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
                     </button>
+
+
                 </div>
             </nav>
         </header>
