@@ -1,22 +1,30 @@
 const Profile = () => {
     const personalInfo = [
-        { label: 'First Name', value: 'Nikhil' },
-        { label: 'Last Name', value: 'Wankhade' },
-        { label: 'Email', value: 'nikhil@example.com' },
-        { label: 'Phone', value: '+91 1234567890' },
-        { label: 'Job', value: 'Data Analyst' },
-        { label: 'Job Type', value: 'Private' },
-        { label: 'Qualification', value: 'B.C.A., Degree College of Physical Education, H.V.P.M.' },
-        { label: 'Salary', value: '$ 30,000' },
+        { label: "Name", value: "John Doe" },
+        { label: "Father's Name", value: "Richard Doe" },
+        { label: "Surname", value: "Doe" },
+        { label: "Mother's Name", value: "Jane Doe" },
+        { label: "Age", value: "30" },
+        { label: "Gender", value: "Male" },
+        { label: "Date of Birth", value: "1994-05-23" },
+        { label: "Phone Number", value: "+91 1234567890" },
+        { label: "Email", value: "john.doe@example.com" },
+        { label: "Address", value: "123 Main Street, Anytown, 123456" },
     ];
 
     const otherInfo = [
-        { label: 'City', value: 'Amravati' },
-        { label: 'State', value: 'Maharashtra' },
-        { label: 'Property', value: '$ 1,00,000' },
-        { label: 'Hometown', value: 'Pune' },
-        { label: 'Address', value: 'Chaitanya Colony, Amravati, 444606' },
+        { label: "Height", value: "5'11\"" },
+        { label: "Weight", value: "70kg" },
+        { label: "Complexion", value: "Fair" },
+        { label: "Education", value: "MSc Computer Science" },
+        { label: "Occupation", value: "Software Engineer" },
+        { label: "Annual Income", value: "$70,000" },
+        { label: "Preferred Age Range", value: "25-30" },
+        { label: "Preferred Height Range", value: "5'5\" - 5'10\"" },
+        { label: "Preferred Education", value: "Graduate" },
+        { label: "Preferred Profession", value: "Engineer" },
     ];
+
 
     const hobbies = ['Reading', 'Traveling', 'Music', 'Photography'];
 
