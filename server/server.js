@@ -8,9 +8,7 @@ import { connectDB } from "./src/db/connectDB.js";
 app.get("/home", (req, res) => {
   res.send("hello world");
 });
-
-
-
+ 
 const startServer = async () => {
   try {
     await connectDB();

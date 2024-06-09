@@ -5,6 +5,6 @@ export const authenticateGoogle = passport.authenticate("google", {
 });
 
 export const googleCallback = passport.authenticate("google", {
-  failureRedirect: "/",
-  successRedirect: "/dashboard", // Adjust the redirect URL as needed
+  failureRedirect: "/login",
+  successRedirect: "/home", //adjust based on success
 });
